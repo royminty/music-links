@@ -1,6 +1,6 @@
 body
 {
-  background-image: url(websiteimages/mobilerectange.jpg);
+  background-image: url(websiteimages/background1.jpg);
   overflow-x: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body
   margin: 3.5rem 0;
   position: relative;
 }
-/*.container-img
+.container-img
 {
   position: relative;
   display: block;
@@ -29,7 +29,7 @@ body
   border-width: 2px;
   border-color: rgba(255, 255, 255, 0.45);
   border-radius: 32px;
-}*/
+}
 .container-img-desktop
 {
   display: none;
@@ -50,14 +50,6 @@ body
     border-color: rgba(255, 255, 255, 0.45);
     border-radius: 32px;
   }
-  body
-  {
-    background-image: url(websiteimages/background1.jpg);
-    overflow-x: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
 }
 
 
@@ -102,11 +94,12 @@ body
 
 .link-group
 {
+  position: absolute;
+  top: 27%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  margin-top: 14.5rem;
   row-gap: 1rem;
+  margin: 0 auto;
 }
 /*full white button background*/
 .button
@@ -156,15 +149,6 @@ body
 
 @media only screen and (min-width: 600px)
 {
-  .link-group
-  {
-    position: absolute;
-    top: 27%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    margin: 0 auto;
-  }
   .button
   {
     padding: 0.5rem 9.21875rem;  
