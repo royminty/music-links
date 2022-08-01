@@ -1,8 +1,7 @@
-html, body
+body
 {
   background-image: url(websiteimages/background1.jpg);
   max-width: 100%;
-  overflow-x: hidden;
   margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,10 +14,9 @@ html, body
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
+  margin: 3.5rem;
   position: relative;
-  
+  overflow-x: hidden;
 }
 .container-img
 {
@@ -27,7 +25,6 @@ html, body
   border-width: 2px;
   border-color: rgba(255, 255, 255, 0.45);
   border-radius: 32px;
-  
 }
 
 /*profile section*/
@@ -67,7 +64,6 @@ html, body
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
-  
 }
 
 /*full white button background*/
@@ -100,10 +96,6 @@ html, body
   width: 7.8125rem;
   height: 2.5rem;
 }
-.soundcloud-blue:hover
-{
-  display: none;
-}
 
 /*real color logo*/
 .button .spotify, .button .apple, .button .youtube-music, .button .amazon, .button .soundcloud, .button .pandora, .button .deezer, .button .tidal
@@ -121,5 +113,4 @@ html, body
 {
   display: inline;
 }
-
 
